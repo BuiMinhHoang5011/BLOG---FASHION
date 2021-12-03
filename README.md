@@ -5,8 +5,8 @@
 
 ### Screen shot
 * Home Page
-![Home Page](https://github.com/BuiMinhHoang5011/project-youtube/blob/main/image/project-youtube-intro.png)
+![Home Page](https://github.com/BuiMinhHoang5011/BLOG---FASHION/blob/main/hoangbtm.image/Screenshot%20(50).png)
 * Playing Video Page
-![Watch Video](https://github.com/BuiMinhHoang5011/project-youtube/blob/main/image/project-youtube-intro2.png)
+![Page Content](https://github.com/BuiMinhHoang5011/BLOG---FASHION/blob/main/hoangbtm.image/Screenshot%20(51).png)
 
 © 2021.Bùi.Minh.Hoàng | FB.COM/buiminhhoang1302
