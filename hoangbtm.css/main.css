@@ -1,0 +1,821 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ---------------------NAV---------------- */
+.flex-div{
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+}
+nav{
+    padding: 10px 6%;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    height: 45px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.main-menu{
+    display: flex;
+    position: relative;
+}
+.flex-div .nav-div .main-menu a{
+    margin-right: 30px;
+    color:white;
+    font-family: 'Lato',Arial, sans-serif;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.flex-div .nav-div a:hover{
+    color: rgb(241, 228, 32);
+}
+.flex-div .nav-div a img{
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+}
+.flex-div .nav-right img{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.flex-div .nav-right span{
+    color: white;
+    margin-left: 15px;
+}
+.main-menu .sub-menu{
+    position: absolute;
+    list-style: none;
+    background-color: black;
+    margin-top:14px;
+    left: 0;
+    display: none;
+}
+.main-menu li:hover .sub-menu{
+    display: block;
+}
+.main-menu .sub-menu > li{
+    padding: 14px 10px;
+    border-top: 1px solid #DCDADA;
+}
+.main-menu .sub-menu p:hover{
+    color: rgb(241, 228, 32);
+}
+.main-menu .sub-menu p{
+    color: rgba(145, 142, 142, 0.973);
+}
+.main-menu .sub-menu .sub-menu{
+    left: 218px;
+    top: -14px;
+}
+.sub-menu .sub-menu li{
+    width: 220px;
+}
+/* ---------------------------------LOGO---------------------------- */
+.logo{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 9%;
+}
+.logo hr{
+    border: 0;
+    height: 1px;
+    background: rgba(204, 204, 204, 0.5);
+    width: 90%;
+    margin-top: 50px;
+    width: 100%;
+}
+/* ------------------------------------MAIN----------------------------------- */
+.main-flex{
+    padding: 0px 6%;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    margin-top: 5%;
+}
+.main-flex .header{
+    text-align: center;
+}
+.main-flex .left-main{
+    width: 65%;
+}
+.main-flex .left-main h3{
+    font-size: 14px;
+    color: #CEBCA5;
+    font-family: 'Lato', sans-serif;
+}
+.main-flex .left-main h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+    margin-top: 15px;
+}
+.main-flex .left-main p{
+    margin-top: 15px;
+    font-size: 13px;
+    color: #2E2E2E;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+/* ------------------------------Content----------------------- */
+.main-flex .left-main .img-main img{
+    width: 710px;
+    height: 470px;
+    margin-top: 30px;
+}
+.main-flex .left-main .img-main p{
+    font-size: 13px;
+    color: #161616;
+    margin:25px 25px;
+    word-spacing: 1px;
+    font-family: 'Noto Sans',Arial, sans-serif;
+    line-height: 21px;
+}
+.main-flex .left-main .highlight-text{
+    font-size: 10px;
+    word-spacing: 1px;
+    margin:20px 50px;
+    color: #989898;
+    font-family: 'Lora',Georgia, serif;
+    line-height: 21px;
+}
+.main-flex .left-main .paris-fashion-week{
+    font-size: 14px;
+    color: black;
+    margin:25px 25px;
+    font-family: 'Lato', sans-serif;
+}
+/* -----------------------------------SPORTING------------------------------- */
+.main-flex .left-main .sporting{
+    display: flex;
+    justify-content: space-between;
+}
+.main-flex .left-main .sporting .img-sporting p{
+    font-style: italic;
+    text-align: center;
+    color: #8d8989;
+    font-size: 13px;
+}
+.main-flex .left-main .sporting .img-sporting img{
+    width: 360px;
+    margin-top: 10px;
+}
+.main-flex .left-main .sporting .content-sporting p{
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.main-flex .left-main .sporting .content-sporting .fix-content{
+    margin-top: 30px;
+}
+.main-flex .left-main .sporting .img-sporting-1 img{
+    margin-left: 20px;
+    width: 360px;
+    margin-top: 10px;
+}
+.main-flex .left-main .sporting .content-sporting-1 p{
+    margin-left: 25px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.main-flex .left-main .more-content-sporting p{
+    margin-left: 25px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    line-height: 22px;
+    font-size: 14px;
+}
+/* -------------------------img-pasis-fashion-week--------------------------- */
+.main-flex .left-main .img-pasis-fashion-week img{
+    width: 725px;
+}
+.main-flex .left-main .img-pasis-fashion-week p{
+    text-align: center;
+    font-style: italic;
+    color: #8d8989;
+}
+/* --------------------------------RIGHT-MAIN--------------------------------- */
+.right-main{
+    width: 27.5%;
+    text-align: center;
+}
+.right-main .about-main{
+    padding: 10px 130px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.right-main .right-img img{
+    margin-top: 35px;
+    width: 305px;
+    height: 210px;
+}
+.right-main .right-img p{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 13px;
+    color: #161616;
+    word-spacing: 1px;
+    line-height: 21px;
+}
+.right-main .re-more-right-main{
+    padding: 1px 0px;
+    margin-top: 30px;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid #DCDADA;
+    background-color: white;
+    color: #d1af86;
+    font-family: 'Lato', sans-serif;
+
+}
+.right-main .re-more-right-main:hover{
+    color: #CDB9A1;
+}
+.right-main .connect-follow button{
+    padding: 10px 81px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+}
+/* -------------------------------CONTACT-------------------------- */
+.right-main .contact{
+    margin-top: 30px;
+}
+.right-main .contact i{
+    border: 1px solid #DCDADA;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+}
+/* -------------------------BUTTON BOTTOM------------------------- */
+.left-main .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.left-main .bottom .button-bottom button{
+    padding: 5px 10px;
+    border: 1px solid #e7e4e4;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #161616;
+    margin-right: 5px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.left-main .bottom .react-bottom i{
+    border: 1px solid #dad6d6;
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+    font-size: 11px;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 3px;
+}
+.left-main .bottom .react-bottom{
+    display: flex;
+}
+.left-main .bottom .react-bottom .heart-bottom i{
+    width: 55px;
+    height: 27px;
+    border-radius: 20px;
+    line-height: 27px;
+    color: #C0A88A;
+}
+/* ------------------------IMAGE BUTTOM------------------------------- */
+.left-main .image-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.left-main .image-bottom .hr-bottom hr{
+    width: 300px;
+    margin-top: 40px;
+    border: 0;
+    height: 0.5px;
+    background-color: #DCDADA;
+}
+.left-main .image-bottom .image img{
+    border-radius: 50%;
+    width: 65%;
+    margin-left: 23px;
+}
+.left-main .shaneDoe{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.left-main .shaneDoe h3{
+    font-size: 14px;
+    color: #CEBCA5;
+}
+.left-main .shaneDoe p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.left-main .shaneDoe-content p{
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 21px;
+}
+.left-main .shanedDoe-contact{
+    text-align: center;
+    margin-top: 15px;
+}
+.left-main .shanedDoe-contact i{
+    font-size: 12px;
+    color: #999595;
+    margin-left: 10px;
+}
+/* -------------------------RELATED-POST------------------------ */
+.left-main .related-post{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.left-main .related-post .hr hr{
+    width: 290px;
+    margin-top: 25px;
+    border: 0;
+    height: 0.5px;
+    background-color:#DCDADA;
+}
+.left-main .related-post .related-content p{
+    font-weight: 600;
+    width: 100px;
+    text-align: center;
+}
+.left-main .related-image{
+    display: flex;
+    text-align: center;
+}
+.left-main .related-image img{
+    width: 220px;
+    text-align: center;
+    margin: 30px 10px;
+}
+.left-main .related-image p{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    margin-top: -20px;
+    word-spacing: 1px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.left-main .related-image a span{
+    font-size: 12px;
+    color: #989898;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+}
+.left-main .older-post p{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px;
+    word-spacing: 2px;
+}
+.left-main .older-post hr{
+    width: 80px;
+    margin-left:30px;
+    border: 0;
+    height: 0.5px;
+    background-color: #DCDADA;
+    margin-top: 5px;
+}
+.left-main .older-post p:hover{
+    color: #C0A88A;
+}
+/* ----------------------INPUT MAIL------------------------- */
+.right-main .input-mail{
+    width: 100%;
+    height: 9%;
+    border:0;
+    margin-top: 30px;
+    background-color: #F7F7F7;
+}
+.right-main .input-mail p{
+    padding-top: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.right-main .input-mail hr{
+    border: 0;
+    height: 1px;
+    background: rgba(105, 104, 104, 0.712);
+    margin:7px 46%;
+    width: 20px;
+}
+.right-main .input-mail .email-box{
+    border: 1px solid #DCDADA;
+    padding: 8px 12px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+    background-color: white;
+}
+.right-main .input-mail .mail-content{
+    width: 90%;
+}
+.right-main .input-mail .mail-content p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 30px;
+    word-spacing: 1px;
+}
+.right-main .input-mail .email-box input{
+    width: 230px;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    /* Định Dạng Đường Viền Bên Ngoài Khung */
+    background: transparent;
+    /* Nền của phàn tử có màu trong suốt */;
+}
+.right-main .input-mail .subscribe-email button{
+    font-weight: 600;
+    padding: 10px 87px;
+    margin-top: 10px;
+    border: 0;
+    color: white;
+    background-color: #C0A88A;
+    font-family: 'Lato', sans-serif;
+}
+/* -----------------------------------LATEST POST--------------------- */
+.right-main .latest-posts button{
+    color: white;
+    background-color: black;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-main .list-latest-posts img{
+    width: 36%;
+}
+.right-main .list-latest-posts{
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+}
+.right-main .list-latest-posts .info{
+    margin-left: 20px;
+}
+.right-main .list-latest-posts .info a{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    text-align: left;
+}
+.right-main .list-latest-posts .info p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #a3a2a2;
+}
+/* -----------------------------INS----------------------------- */
+.right-main .ist button{
+    color: white;
+    background-color: black;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-main .list-ist{
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    grid-column-gap: 95px;
+    grid-row-gap: 5px;
+    margin-top: 35px;
+}
+.right-main .list-ist .thumbnail{
+    width: 97px;
+}
+/* --------------------------------CATEGORY----------------------------- */
+.right-main .category button{
+    color: white;
+    background-color: black;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-main .list-category{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-left: 15px;
+    border-bottom: 1px solid #DCDADA;
+    padding-bottom: 18px;
+}
+.right-main .list-category .beauty li{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    list-style-type: circle;
+}
+.right-main .list-category .star h1{
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    color: #a3a2a2;
+}
+/* ---------------------------------------Write Comemnt------------------------------ */
+.right-main .write-comment button{
+    color: white;
+    background-color: black;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-main .input-comment{
+    border: 1px solid #DCDADA;
+    padding: 8px 12px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+}
+.right-main .input-comment input{
+    width: 290px;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    /* Định Dạng Đường Viền Bên Ngoài Khung */
+    background: transparent;
+    /* Nền của phàn tử có màu trong suốt */;
+}
+.right-main .comment{
+    border: 1px solid #DCDADA;
+    padding: 8px 12px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+}
+.right-main .comment input{
+    width: 290px;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    /* Định Dạng Đường Viền Bên Ngoài Khung */
+    background: transparent;
+    /* Nền của phàn tử có màu trong suốt */;
+}
+.right-main .post-comment button{
+    padding: 1px 0px;
+    margin-top: 30px;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid #DCDADA;
+    background-color: white;
+    color: #d1af86;
+    font-family: 'Lato', sans-serif;
+}
+/* ----------------------------------------ADDRESS---------------------------------- */
+.right-main .address button{
+    color: white;
+    background-color: black;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-main .img-address img{
+    width: 20px;
+}
+.right-main .img-address{
+    margin-top: 30px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+.right-main .inf-address a{
+    margin-left: 25px;
+    color: rgb(28, 55, 175);
+}
+/* -------------------------------------OUR COMMENT------------------------------ */
+.right-main .our-comment button{
+    color: white;
+    background-color: black;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-main .our-comment p{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+.right-main .img-comment img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.right-main .img-comment{
+    display: flex;
+    margin-top: 30px;
+}
+/* ------------------------------------FOOTER-------------------------------- */
+.footer .footer-image{
+    display: flex;
+    margin-top: 80px;
+}
+.footer .footer-image img{
+    width: 211px;
+}
+.footer .footer-contact{
+    height: 60px;
+    background-color: #1E1E1E;
+}
+.footer .footer-contact .facebook i{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    margin-left: 50px;
+    line-height: 60px;
+}
+.footer .footer-contact .facebook i:hover{
+    color: #d1af86;
+    transition: 0.5s;
+}
+.footer .footer-contact .facebook i p{
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.footer .footer-contact .facebook{
+    display: flex;
+    margin-left: 22%;
+}
+.footer .footer-information{
+    height: 750px;
+    background-color: black;
+    padding: 7% 5%;
+    width: 100%;
+}
+.footer .footer-information .information-flex{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.footer .footer-information .left-header-information{
+    color: #a3a2a2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 28%;
+}
+.footer .footer-information .left-header-information hr{
+    border: 0;
+    height: 0.5px;
+    background-color: #686767d2;
+    width: 35px;
+    margin-top: 10px;
+}
+.footer .footer-information .left-header-information img{
+    width: 315px;
+    margin-top: 50px;
+}
+.footer .footer-information .left-header-information .fix-content-information{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    word-spacing: 1px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+.footer .footer-information .left-header-information .list-latest-posts{
+    display: flex;
+}
+.footer .footer-information .left-header-information .list-latest-posts img{
+    width: 120px;
+}
+.footer .footer-information .left-header-information .list-latest-posts span{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    text-align: left;
+    color: white;
+}
+.footer .footer-information .left-header-information .list-latest-posts p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    color: white;
+}
+.footer .footer-information .left-header-information .list-latest-posts .info{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.footer .footer-information .left-header-information .list-latest-posts-1{
+    display: flex;
+}
+.footer .footer-information .left-header-information .list-latest-posts-1 img{
+    width: 120px;
+    margin-top: 20px;
+}
+.footer .footer-information .left-header-information .list-latest-posts-1 span{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    text-align: left;
+    color: white;
+    font-weight: 500;
+}
+.footer .footer-information .left-header-information .list-latest-posts-1 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 500;
+}
+.footer .footer-information .left-header-information .list-latest-posts-1 .info{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.footer .footer-information hr{
+    border: 0;
+    height: 0.5px;
+    background-color: #a3a2a2;
+    margin-top: 100px;
+}
+.footer .footer-information .logo-footer{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer .footer-information .logo-footer p{
+    color:#8d8989;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    font-size: 13px;
+}
+.footer .footer-information .logo-footer #back-to-top{
+	cursor: pointer;
+    color: #5b5b5b;
+    font-size: 12px;
+    display: flex;
+    margin-left: 47%;
+}
+.footer .footer-information .logo-footer #back-to-top p{
+    margin-left: 10px;
+}
+.footer .footer-information .logo-footer #back-to-top i{
+    margin-top: 42px;
+}
+@media (max-width:900px){
+   .right-main{
+       display: none;
+   }
+}
